@@ -1,5 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 .App {
   text-align: center;
+}
+
+#backgroundTag{
+  width: 100%;
+  height: 100vmax;
 }
 
 .App-logo {
