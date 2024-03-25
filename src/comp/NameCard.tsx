@@ -40,9 +40,7 @@ export default function NameCard({ classNameString }: prop) {
 
 
                     <div className="">
-                        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
-            
-                        I'm a great place for you to tell a story and let your users know a little more about you.
+                    Hey there - it's Moksh! 🌟 I'm not just hitting high notes in the world of software engineering – I'm a pro at coding in Java, C++, C#, and Dart. I've dived into the coolest libraries like Android, Flutter, and Spring Boot, creating magical, user-friendly solutions. I'm all about crafting applications that resonate with the audience, using my coding skills to make technology sing. I'm on a journey of constant exploration, always chasing the newest tech trends to keep the software world vibing at its best.
                     </div>
 
                 </div> 

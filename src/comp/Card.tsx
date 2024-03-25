@@ -17,8 +17,8 @@ export default function Card() {
                                 SOFTWARE ENGINEER
                             </div>
                             <div className="flex md:hidden justify-center items-center my-6">
-                                <button className="bg-primary-button-color transition-colors duration-300 ease-in-out hover:bg-white hover:border-primary-button-color border-2 hover:text-black rounded-full px-6 py-1 mx-3 border-primary-button-color text-white">Resume</button>
-                                <button className="bg-white transition-colors duration-300 ease-in-out hover:bg-primary-button-color hover:border-primary-button-color border-2 hover:text-white rounded-full px-6 py-1 border-black">Project</button>
+                                <button className="bg-primary-button-color transition-colors duration-300 ease-in-out hover:bg-white hover:border-primary-button-color border-2 hover:text-black rounded-full px-9 py-1 me-2 border-primary-button-color text-white">Resume</button>
+                                <button className="bg-white transition-colors duration-300 ease-in-out hover:bg-primary-button-color hover:border-primary-button-color border-2 hover:text-white rounded-full px-9 py-1 ms-2 border-black">Project</button>
                             </div>
                         </div>
                         <div className="relative bottom-0 bg-white">
@@ -37,9 +37,11 @@ export default function Card() {
                             <button className="bg-white transition-colors duration-300 ease-in-out hover:bg-primary-button-color hover:border-primary-button-color border-2 hover:text-white rounded-full px-10 py-1 border-black">Project</button>
                         </div>
                         <div>
-                            I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
-
-                            I’m a great place for you to tell a story and let your users know a little more about you.
+                            Hey there - it's Moksh! <br/>
+                            🌟 I'm not just hitting high notes in the world of software engineering – I'm a pro at coding in Java, C++, C#, and Dart.<br/>
+                            I've dived into the coolest libraries like Android, Flutter, and Spring Boot, creating magical, user-friendly solutions.<br/>
+                            I'm all about crafting applications that resonate with the audience, using my coding skills to make technology sing.
+                            I'm on a journey of constant exploration, always chasing the newest tech trends to keep the software world vibing at its best.   
                         </div>
                     </div>
                 </div>
