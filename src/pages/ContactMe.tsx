@@ -1,4 +1,3 @@
-import React from 'react';
 import './css/ContactMe.css'; // Import the style sheet
 
 const ContactMe = () => {
