@@ -6,7 +6,7 @@ import linkdin from "../assets/linkedin.png"
 export default function Card() {
     return (
         <>
-            <div className="absolute max-md:w-screen md:w-[70%] md:top-[25%] md:left-[20%] max-md:top-28">
+            <div className="absolute max-md:w-screen md:w-[70%] md:top-[22%] md:left-[20%] max-md:top-28">
                 <div className="md:flex">
                     <div className="bg-secondary-color max-md:mb-10 w-full border shadow-lg">
                         <img className="rounded-full w-60 md:p-8 max-md:p-1 m-auto" src={String(moksh)} alt="Moksh Choudhary" />
@@ -26,16 +26,23 @@ export default function Card() {
                         </div>
                     </div>
                     <div className="ms-10">
-                        <h1 className="text-8xl font-bold">Hello </h1>
-                        <h1 className="text-2xl">Here's who I am & what I do </h1>
+                        <h1 className="text-8xl font-bold mb-3">Hey there, </h1>
+                        <h1 className="text-2xl">Web-slingers and Code enthusiasts! </h1>
                         <div className="flex my-6">
                             <button className="rounded-full px-6 py-1 mx-3 bg-primary-button-color text-white">Resume</button>
                             <button className="rounded-full px-6 py-1 border border-black">Project</button>
                         </div>
                         <div>
-                            I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.
+                        
+                            <p className="font-sans text-base md:text-sm leading-relaxed text-left mr-8">
+                                <br/>
+                                Welcome to my corner of the digital universe. I'm just your friendly neighborhood software engineer, swinging through the intricate world of Java, Angular JS, and Spring Boot.<br/>
+                                With great power comes great responsibility, and I've embraced the challenge of crafting software solutions that pack a punch. From weaving together Spring frameworks to spinning RESTful APIs like a web, my journey has been nothing short of spectacular.<br/>
+                                I've ventured into the uncharted territories of microservices architectures, facing down challenges with the same tenacity as your friendly neighborhood superhero.<br/>
+                                So, grab your web shooters and dive into my portfolio to see how I'm using technology to make the world a better place, one line of code at a time!
+                            </p>
 
-                            I’m a great place for you to tell a story and let your users know a little more about you.
+
                         </div>
                     </div>
                 </div>

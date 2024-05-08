@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--primary-color); /* Primary color */
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: var(--primary-button-color); /* Primary button color */
+    font-weight: bold;
+    margin-top: 0;
+    text-align: center; /* Center align headers */
+    border-bottom: 2px solid var(--primary-button-color); /* Division line */
+    padding-bottom: 10px; /* Adjust spacing */
+    margin-bottom: 20px; /* Adjust margin */
+}
+
+h2 {
+    font-size: 28px; /* Adjust font size for h2 */
+}
+
+h3 {
+    font-size: 24px; /* Adjust font size for h3 */
+}
+
+li {
+    margin-bottom: 10px;
+    background-color: var(--primary-color); /* Primary color */
+    border-radius: 8px;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.work-experience-container {
+    background-color: var(--primary-color); /* Primary color */
+    border-radius: 10px;
+    padding: 20px;
+    border-left: 6px solid var(--primary-button-color); /* Primary button color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.work-experience-header {
+    color: var(--primary-button-color); /* Primary button color */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center; /* Center align header */
+}
+
+.work-experience-item {
+    margin-bottom: 20px;
+}
+
+.work-experience-item p {
+    margin-bottom: 10px;
+}
+
+.work-experience-item ul {
+    margin-left: 20px;
+}
+
+/* Styling for bold keywords */
+.font-bold {
+    font-weight: bold;
+}
+
+.primary-button-container {
+    text-align: center; /* Center align the button */
+    margin-top: 20px; /* Adjust margin from the top */
+}
+
+.primary-button {
+    display: inline-block;
+    background-color: var(--primary-button-color); /* Primary button color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+    background-color: #30594b; /* Darker shade when hovered */
+}

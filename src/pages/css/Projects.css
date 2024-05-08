@@ -1,0 +1,109 @@
+.project-card {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.project-details {
+    margin-bottom: 10px;
+}
+
+.project-detail {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.view-on-github {
+    color: #0366d6;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.view-on-github:hover {
+    color: #0540a0;
+}
+
+/* GitHubProjects.css */
+
+.container {
+    padding: 40px 20px;
+}
+
+.project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    color: #333;
+}
+
+.project-description {
+    color: #555;
+}
+
+.view-on-github {
+    transition: color 0.3s;
+}
+
+.view-on-github:hover {
+    color: #1f6feb;
+}
+
+/* GitHubProjects.css */
+
+.container {
+    padding: 40px 20px;
+}
+
+.project-card {
+    transition-property: transform, box-shadow;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    color: #333;
+}
+
+.project-description {
+    color: #555;
+}
+
+.project-details {
+    margin-top: 10px;
+}
+
+.project-detail {
+    margin-right: 10px;
+}
+
+.view-on-github {
+    transition: color 0.3s;
+}
+
+.view-on-github:hover {
+    color: #1f6feb;
+}
+
