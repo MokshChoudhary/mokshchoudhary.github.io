@@ -6,7 +6,7 @@ export default function Home(){
     return(
         <div className='text-[#000] w-screen h-screen p-0 m-0 '>
         
-        <div className='bg-white top-28 w-screen h-screen bg-primary-color grid-flow-col'>
+        <div className='bg-white top-28 w-screen h-screen max-md:bg-white grid-flow-col'>
   
           <div className='md:bg-primary-color h-screen w-[40%]' />
   
