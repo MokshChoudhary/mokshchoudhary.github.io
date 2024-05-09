@@ -37,14 +37,14 @@ export default function Card() {
                         <h1 className="text-8xl font-bold mb-3 text-black border-none">Hey There </h1>
                         <h1 className="text-2xl text-black border-none">Web-slingers and Code enthusiasts! </h1>
                         <div className="flex my-6 w-full">
-                            <div className="mx-auto">
+                            <div className="mx-auto max-md:hidden">
                                 <button onClick={() => { navigate("/Resume", { replace: true }) }} className="rounded-full px-6 py-1 mx-3 bg-primary-button-color text-white">Resume</button>
                                 <button onClick={() => { navigate("/Projects") }} className="rounded-full px-6 py-1 border border-black">Project</button>
                             </div>
                         </div>
                         <div>
 
-                            <p className="font-sans text-base md:text-sm leading-relaxed text-left mr-8">
+                            <p className="font-sans text-base md:text-sm leading-relaxed max-md:text-center md:text-left mr-8">
                                 <br />
                                 Welcome to my corner of the digital universe. I'm just your friendly neighborhood software engineer, swinging through the intricate world of Java, Angular JS, and Spring Boot.<br />
                                 With great power comes great responsibility, and I've embraced the challenge of crafting software solutions that pack a punch. From weaving together Spring frameworks to spinning RESTful APIs like a web, my journey has been nothing short of spectacular.<br />

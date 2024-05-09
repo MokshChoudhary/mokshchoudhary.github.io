@@ -1,8 +1,11 @@
 import "./css/Resume.css";
 import resume_file from "../assets/Moksh Choudhary.pdf";
+import NavigationBar from "../comp/NavigationBar";
 
 export default function Resume() {
     return (
+        <>
+        <NavigationBar />
         <div className="absolute top-28 w-full">
             <div className="container mx-auto">
                 <div className="card mx-auto">
@@ -105,5 +108,6 @@ export default function Resume() {
 
             </div>
         </div>
+        </>
     );
 }
